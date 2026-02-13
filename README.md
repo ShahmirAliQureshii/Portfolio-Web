@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# 🚀 Shahmir Ali Qureshi | Full-Stack Developer & UI Architect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-Currently, two official plugins are available:
+Welcome to my official portfolio ecosystem. I specialize in engineering **premium digital experiences** that bridge the gap between high-end design and scalable architecture. As the CEO of **SnapperUI**, my focus is on delivering modern, conversion-optimized solutions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **🎨 State-of-the-Art Theme Engine**: Seamless transition between high-contrast Light Mode and premium Dark Mode with CSS variable architecture.
+- **📱 Responsive Masterpiece**: Fully optimized for every device, from mobile screens to ultra-wide monitors.
+- **⚡ High-Conversion Flow**: Integrated WhatsApp contact buttons and Fiverr service packages designed to drive orders instantly.
+- **💎 Premium Interactions**: Staggered animations, glassmorphism effects, and micro-interactions powered by Framer Motion.
+- **📂 Compact Gallery**: A simplified, elegant 3-column project showcase designed for maximum impact and readability.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS 4.0 (Modern Utility-First)
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **Build Tool**: Vite
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🚀 Getting Started
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/ShahmirAliQureshii/Portfolio-Web.git
+   ```
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
+4. **Build for production**:
+   ```bash
+   npm run build
+   ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📬 Let's Build Something Extraordinary
+
+I'm always open to discussing new projects and creative ideas.
+
+- **💬 WhatsApp**: [+92 325 2862245](https://wa.me/923252862245)
+- **🎨 Fiverr**: [devshahmir](https://www.fiverr.com/devshahmir)
+- **💼 LinkedIn**: [Shahmir Ali Qureshi](https://linkedin.com/in/shahmir-ali-qureshi)
+- **📸 Instagram**: [Shahmir Ali Qureshi](https://www.instagram.com/dev.shahmir/)
+- **🐙 GitHub**: [@ShahmirAliQureshii](https://github.com/ShahmirAliQureshii)
+
+---
+
+Built with Passion by **Shahmir Ali Qureshi**. © 2026.

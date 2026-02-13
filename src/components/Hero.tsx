@@ -80,7 +80,7 @@ export default function Hero() {
                             transition={{ delay: 0.5 }}
                             className="grid grid-cols-2 sm:grid-cols-3 gap-6 lg:gap-8 pt-8 border-t border-border"
                         >
-                            <div className="flex items-center gap-3 lg:gap-4 text-left group">
+                            <div className="flex items-center select-none cursor-pointer gap-3 lg:gap-4 text-left group">
                                 <div className="size-10 lg:size-12 rounded-xl lg:rounded-2xl bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                                     <TrendingUpIcon className="size-5 lg:size-6" />
                                 </div>
@@ -89,7 +89,7 @@ export default function Hero() {
                                     <div className="text-[8px] lg:text-[10px] font-bold text-muted-foreground uppercase tracking-widest leading-none truncate">Modern Ecosystems</div>
                                 </div>
                             </div>
-                            <div className="flex items-center gap-3 lg:gap-4 text-left group">
+                            <div className="flex items-center select-none cursor-pointer gap-3 lg:gap-4 text-left group">
                                 <div className="size-10 lg:size-12 rounded-xl lg:rounded-2xl bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                                     <UsersIcon className="size-5 lg:size-6" />
                                 </div>
@@ -98,7 +98,7 @@ export default function Hero() {
                                     <div className="text-[8px] lg:text-[10px] font-bold text-muted-foreground uppercase tracking-widest leading-none truncate">Focused Design</div>
                                 </div>
                             </div>
-                            <div className="hidden sm:flex items-center gap-3 lg:gap-4 text-left group">
+                            <div className="hidden sm:flex items-center select-none cursor-pointer gap-3 lg:gap-4 text-left group">
                                 <div className="size-10 lg:size-12 rounded-xl lg:rounded-2xl bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-all duration-300">
                                     <AwardIcon className="size-5 lg:size-6" />
                                 </div>
